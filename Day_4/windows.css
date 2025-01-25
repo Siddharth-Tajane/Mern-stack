@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+.windows-logo {
+    display: flex;
+    flex-direction: column;
+    width: 100px; /* Width of the logo */
+    height: 100px; /* Height of the logo */
+}
+.window {
+    background-color: #0078D7; /* Windows blue color */
+    border: 1px solid #ffffff; /* White border */
+    box-sizing: border-box; /* Include border in width/height */
+}
+.top {
+    height: 50%; /* Top half */
+    display: flex;
+}
+.bottom {
+    height: 50%; /* Bottom half */
+    display: flex;
+}
+.left, .right {
+    width: 50%; /* Each square takes half of the row */
+}

@@ -1,0 +1,19 @@
+.body{
+    background-color: #edf7f6;
+    height: auto;
+    width: auto;
+    flex: 1;
+}
+.nav1{
+    flex-wrap:wrap;
+    display: flex;
+    flex: 1;
+}
+
+
+
+.parentcard{
+   
+    display: flex; flex-direction: row; flex-wrap: wrap;
+    
+}

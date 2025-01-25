@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groom Registration Form</title>
+    
+<head>
+<body>
+    <div class="container">
+        <h1>Groom Registration Form</h1>
+        <form action="/submit_registration" method="POST">
+           
+            <label for="full_name">Full Name:</label>
+            <input type="text" id="full_name" name="full_name" placeholder="Enter your full name" required>
+            <br><br><br>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+            <br><br><br>
+            
+
+            <label for="occupation">Occupation:</label>
+            <input type="text" id="occupation" name="occupation" placeholder="Enter your occupation">
+            <br><br><br>
+           
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+            <br><br><br>
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+            <br><br><br>
+            <!-- Preferences -->
+            <label for="marital_status">Marital Status:</label>
+            <select id="marital_status" name="marital_status" required>
+                <option value="">Select</option>
+                <option value="single">Single</option>
+                <option value="divorced">Divorced</option>
+                <option value="widowed">Widowed</option>
+            </select>
+            <br><br><br>
+            <label for="Gender">Gender</label>
+            <br><br>
+            <label>
+                <input type="radio" name="Gender" value="Male">Male
+            </label><br>
+            <label>
+                <input type="radio" name="Gender" value="Female">Female
+            </label><br>
+            <label>
+                <input type="radio" name="Gender" value="Trans">Trans
+            </label><br>
+            <label>
+                <input type="radio" name="Gender" value="Other">Other
+            </label>
+            <br><br>
+            <label for="Languages" id="Languages">Languages</label><br><br>
+            <input type="checkbox" name="Marathi" id="Marathi">Marathi
+            <input type="checkbox" name="Hindi" id="Hindi">Hindi
+            <input type="checkbox"  id="English">English
+
+
+            </select>
+            <br><br><br>
+            <label for="address">Address:</label>
+            <textarea id="address" name="address" rows="4" placeholder="Enter your address"></textarea>
+            <br><br><br>
+            <label for="hobbies">Hobbies and Interests:</label>
+            <textarea id="hobbies" name="hobbies" rows="3" placeholder="Enter your hobbies and interests"></textarea>
+            <br><br><br>
+            <!-- Submit Button -->
+            <button type="submit">Register</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,17 @@
+1. create a cluster in mongodb atlas
+2. create username and password 
+     username : Siddharth
+     password : Sidd1242_
+3. create network access
+     mongodb+srv://Siddharth:Sidd1242_@cluster.6x3ac.mongodb.net/
+
+
+
+
+
+movie name 
+hero
+heroine
+year
+rating
+genre

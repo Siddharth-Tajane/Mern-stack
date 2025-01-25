@@ -1,0 +1,25 @@
+//   res.end('{"name":"John"}');
+// if(req.url === '/'){
+//     res.end('Welcome to our home page');
+//     res.end();
+// };
+
+// if(req.url === '/user'){
+//     res.end('{username: John, age: 30, email:abc@gmail.com}');
+//     res.end();
+// };
+
+// if(req.url === '/product'){
+//     res.end('{product: Mobile, price: 10000, brand: Samsung, version: 1.0}'); 
+//     res.end();
+// };
+
+// if(req.url === '/account'){
+//     res.end('{account: Savings, balance: 10000, accountNumber: 123456}');
+//     res.end();
+// };
+
+// if(req.url === '/payment'){
+//     res.end('{payment: Credit, amount: 10000, cardNumber: 123456789}');
+//     res.end();
+// };
