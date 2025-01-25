@@ -3,6 +3,7 @@ const app = express()
 app.use(express.json())
 const port = 3000
 
+console.log('Hello World');
 
 app.get('/about', (req, res) => {
     // res.send('About us page')
